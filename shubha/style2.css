@@ -185,13 +185,12 @@ footer {
     font-size:0.8em;
   }
 }
-/* @media (max-width:500px){
-  .top-1-b{
-    padding:5px; 
-    
+@media (max-width:500px){
+  .top-1{
+    grid-template-areas:
+    'top-1-a'
+    'top-1-b ';
   }
 
-  .top-1-a{
-    align-items: center
   }
-}  */
+ 
