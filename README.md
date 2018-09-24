@@ -1,6 +1,9 @@
 A link (URL) to your published portfolio website:
-https://github.com/ShubhaChaudhary/term1-portfolio
-ssh key:git@github.com:ShubhaChaudhary/term1-portfolio.
+https://github.com/ShubhaChaudhary/ShubhaChaudhary.github.io
+
+Link to github repo:
+https://github.com/ShubhaChaudhary/ShubhaChaudhary.github.io
+
 # Description of your portfolio :
  ## Purpose 
  To showchase my abilities to employer.By including my coding skills,experience ,certification and personality to prospective employers.
