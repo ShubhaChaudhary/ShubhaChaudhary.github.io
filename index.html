@@ -17,23 +17,24 @@
             padding: 0;
         }
 
-        /* To give full screen view to background image and animaation effect when hover */
+        /* To give full screen view to background image(used vh unit for height to make it responsive across different 
+        devices) and animation effect when hover */
         .container {
             margin: 0;
             height: 100vh;
             font-family: 'Courier New', Courier, monospace;
             font-weight: 900;
-            font-size: 1.4em;
-            color: #9e0303;
+            font-size: 1.2em;
+            color: #6e0303;
             line-height: 1.5;
             background: url('top.jpeg');
             background-size: cover;
             background-position: center;
             display: flex;
+            flex-flow: wrap;
             flex-direction: column;
-            justify-content: end;
-            flex-wrap: wrap;
-            padding: 0px 30px;
+            align-items: center;
+            padding: 0px 8px;
             transition: background 2s;
         }
 
@@ -41,15 +42,19 @@
             opacity: 0.7;
         }
 
+
+
         /* animation  for typewriter effect */
         .container h3 {
             overflow: hidden;
             border-right: .15em;
             margin: 0 auto;
-            white-space: nowrap;
+            /* white-space: nowrap; */
             letter-spacing: .18em;
             animation: typing 3.5s steps(30, end);
-
+            max-height: 5rem;
+            /* height: auto; */
+            max-width: 100%;
         }
 
         /* animation */
@@ -64,15 +69,17 @@
         }
 
         .container h3 {
-            color: rgb(3, 7, 31);
-            padding: 0px 30px;
+            color: rgb(0, 2, 8);
+            display: flex;
+            font-size: 1.3em;
+            /* flex-flow: wrap; */
         }
 
         /* position and normal feature for icon */
         .icon {
             display: flex;
-            flex-direction: column;
-            padding: 90px 590px;
+            /* flex-direction: column; */
+            /* padding: 90px 590px; */
             text-decoration: none;
         }
 
@@ -102,11 +109,11 @@
             animation-direction: alternate;
         }
 
-        /* not sure to include */
-        /* .icon:after {
-            content: 'Portfolio';
-            transition: all 2s;
-        } */
+        @media(max-width:600px) {
+            .container {
+                font-size: .9em;
+            }
+        }
     </style>
 </head>
 
