@@ -1,5 +1,5 @@
 A link (URL) to your published portfolio website:
-https://github.com/ShubhaChaudhary/ShubhaChaudhary.github.io
+https://ShubhaChaudhary.github.io
 
 Link to github repo:
 https://github.com/ShubhaChaudhary/ShubhaChaudhary.github.io
